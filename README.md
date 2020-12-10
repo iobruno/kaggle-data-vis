@@ -4,20 +4,30 @@ Kaggle Data Visualization Microcourse
 
 ## Tech Stack
 - Python 3.6+
+- nodejs >= 10 (COVID-19 notebook: plotly visualizations)
 - Jupyter Notebook
-- Pandas
+- Plot.ly
 - Seaborn
-- Conda (virtualenv)
+- pandas
 
 ## Up & Running:
 
 Project Setup
 ```
-pip install -r requirements.txt
+$ conda install nodejs
+$ pip install -r requirements.txt
+$ jupyter labextension install jupyterlab-plotly
 ```
 
-Jupyter Lab/Notebook
+## Jupyter Lab/Notebook
+```
+$ jupyter lab
+```
 
-```
-jupyter lab
-```
+## Visualizations:
+
+You can visualize the graphs in here:
+
+[COVID-19 Dataset Visualization](https://nbviewer.jupyter.org/github/iobruno/kaggle-data-vis/blob/master/notebooks/covid-19_analysis.ipynb)
+
+
