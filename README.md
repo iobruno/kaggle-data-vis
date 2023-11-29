@@ -32,4 +32,5 @@ pdm sync
 - [x] PEP-517: Packaging and dependency management with PDM
 - [x] Implement basic visualizations with seaborn in Jupyter
 - [ ] Implement the visualizations done with seaborn using Plotly
+- [ ] Optimize COVID19 EDA Visualizations (cramped for updated dataset: Nov/2023)
 - [ ] Implement visualization with Streamlit and Plotly
