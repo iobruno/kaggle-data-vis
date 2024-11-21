@@ -1,9 +1,9 @@
 # Kaggle Data Visualization
 
-![Python](https://img.shields.io/badge/Python-3.10_|_3.11-4B8BBE.svg?style=flat&logo=python&logoColor=FFD43B&labelColor=306998)
+![Python](https://img.shields.io/badge/Python-3.12_|_3.11_|_3.10-4B8BBE.svg?style=flat&logo=python&logoColor=FFD43B&labelColor=306998)
 ![Pandas](https://img.shields.io/badge/pandas-2.x-E70288?style=flat&logo=pandas&logoColor=white&labelColor=130753)
+![plot.ly](https://img.shields.io/badge/plotly-5.x-242A44?style=flat&logo=plotly&logoColor=white&labelColor=242A44)
 ![Jupyter](https://img.shields.io/badge/Jupyter-31393F.svg?style=flat&logo=jupyter&logoColor=F37726&labelColor=31393F)
-[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 ![License](https://img.shields.io/badge/license-CC--BY--SA--4.0-31393F?style=flat&logo=creativecommons&logoColor=black&labelColor=white)
 
@@ -19,15 +19,20 @@ Kaggle - Learn Data Visualization
 
 ## Up & Running
 
-**Create a virtualenv for Python 3.10 / 3.11**
+**1.** Create and activate a virtualenv with conda:
 ```shell
-conda create -n datavis python=3.11
+conda create -n datavis python=3.12
 conda activate datavis
 ```
 
-**Install project dependencies**
+**2.** Install the dependencies on `pyproject.toml`:
 ```shell
 pdm sync
+```
+
+**3.** Spin up jupyter for EDA and Data vis:
+```shell
+jupyter lab
 ```
 
 ## TODO
