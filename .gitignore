@@ -192,9 +192,6 @@ pyrightconfig.json
 .ionide
 
 ### Developer Workstation ###
-# Docker volumes
-**/volumes/**
-
 # macOS
 **/.DS_Store
 
