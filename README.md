@@ -1,42 +1,31 @@
 # Kaggle Data Visualization
 
 ![Python](https://img.shields.io/badge/Python-3.13_|_3.12-4B8BBE.svg?style=flat&logo=python&logoColor=FFD43B&labelColor=306998)
-![Pandas](https://img.shields.io/badge/pandas-2.x-E70288?style=flat&logo=pandas&logoColor=white&labelColor=130753)
-![plot.ly](https://img.shields.io/badge/plotly-5.x-242A44?style=flat&logo=plotly&logoColor=white&labelColor=242A44)
-![Jupyter](https://img.shields.io/badge/Jupyter-31393F.svg?style=flat&logo=jupyter&logoColor=F37726&labelColor=31393F)
+[![Pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=E70488&labelColor=150458)](https://pandas.pydata.org/docs/user_guide/)
+[![plot.ly](https://img.shields.io/badge/plotly-5.x-242A44?style=flat&logo=plotly&logoColor=white&labelColor=242A44)](https://plotly.com/python/)
+[![seaborn](https://img.shields.io/badge/seaborn-0.13-242A44?style=flat&logo=python&logoColor=white&labelColor=242A44)](https://seaborn.pydata.org/api)
+[![Jupyter](https://img.shields.io/badge/Jupyter-262A38?style=flat&logo=jupyter&logoColor=FF6849&labelColor=262A38)](https://docs.jupyter.org/en/stable/projects/kernels.html)
+[![uv](https://img.shields.io/badge/astral/uv-261230?style=flat&logo=uv&logoColor=DE5FE9&labelColor=261230)](https://docs.astral.sh/uv/getting-started/installation/)
 
 ![License](https://img.shields.io/badge/license-CC--BY--SA--4.0-31393F?style=flat&logo=creativecommons&logoColor=black&labelColor=white)
 
 Kaggle - Learn Data Visualization
 
-## Tech Stack
-- [pandas](https://pandas.pydata.org/docs/user_guide/)
-- [plotly](https://plotly.com/python/)
-- [seaborn](https://seaborn.pydata.org/)
-- [PDM](https://pdm-project.org/latest/usage/dependency/)
-- [Ruff](https://docs.astral.sh/ruff/configuration/)
 
+## Getting Started
 
-## Up & Running
-
-
-**1.** Install the dependencies on `pyproject.toml`:
+**1.** Install dependencies from pyproject.toml and activate the created virtualenv:
 ```shell
-uv sync
+uv sync && source .venv/bin/activate
 ```
 
-**2.** Activate the virtualenv created by `uv`:
-```shell
-source .venv/bin/activate
-```
-
-**3.** Spin up jupyter for EDA and Data vis:
+**2.** Spin up jupyter for EDA and Data vis:
 ```shell
 jupyter lab
 ```
 
-## TODO
 
+## TODO's:
 - [x] PEP-517: Packaging and dependency management with `uv`
 - [x] Implement basic visualizations with seaborn in Jupyter
 - [ ] Implement the visualizations done with seaborn using Plotly
